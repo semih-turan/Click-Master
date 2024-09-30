@@ -5,10 +5,12 @@
 Click Master is a simple Chrome extension that allows users to perform specific actions on a given website. It uses a user input to interact with elements on the webpage, based on selector types like CSS Selector, XPath, and Full XPath. The extension provides a user-friendly interface to easily select elements and trigger actions like clicking on them.
 
 ## Features
-<p align="center">
-  <img src="./assets/preview.png" alt="Preview Light Mode" style="border-radius: 10px;" />
-  <img src="./assets/preview-dark.png" alt="Preview Dark Mode" style="border-radius: 10px;" />
+
+<p align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
+  <img src="./assets/preview.png" alt="Preview Light Mode" style="border-radius: 10px; max-width: 45%;" />
+  <img src="./assets/preview-dark.png" alt="Preview Dark Mode" style="border-radius: 10px; max-width: 45%;" />
 </p>
+
 - Interact with elements on any webpage using CSS Selector, XPath, or Full XPath.
 - Simple and intuitive user interface.
 - Dark mode option for better user experience.
