@@ -6,10 +6,13 @@ Click Master is a simple Chrome extension that allows users to perform specific 
 
 ## Features
 
-<p align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
-  <img src="./assets/preview.png" alt="Preview Light Mode" style="border-radius: 10px; max-width: 45%;" />
-  <img src="./assets/preview-dark.png" alt="Preview Dark Mode" style="border-radius: 10px; max-width: 45%;" />
-</p>
+<div align="center">
+
+| ![Preview Light Mode](./assets/preview.png) | ![Preview Dark Mode](./assets/preview-dark.png) |
+|:-------------------------------------------:|:----------------------------------------------:|
+| Preview Light Mode                          | Preview Dark Mode                              |
+
+</div>
 
 - Interact with elements on any webpage using CSS Selector, XPath, or Full XPath.
 - Simple and intuitive user interface.
