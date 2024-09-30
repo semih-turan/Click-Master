@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Master</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Click Master</h1>
+
+    <div class="dark-mode-toggle">
+      <button id="darkModeButton" class="dark-mode-button">
+        <img id="modeIcon" src="icons/moon-icon.png" alt="Toggle Dark Mode" />
+      </button>
+    </div>
+
+    <input id="userInput" class="input" type="text" placeholder="Enter selector or XPath" />
+
+    <label for="category">Choose a category:</label>
+    <select id="category" class="dropdown"></select>
+      <option value="selector">Selector</option>
+      <option value="xpath">XPath</option>
+      <option value="full_xpath">Full XPath</option>
+    </label>
+
+    <button id="clickButton" class="button">Click Element</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
